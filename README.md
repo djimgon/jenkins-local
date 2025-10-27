@@ -28,7 +28,7 @@ docker compose up -d
 ## 🛑 Stop Jenkins:
 ```bash
 docker compose down
-
+```
 ## 📂 Purpose
 
 This project keeps Jenkins **independent from main development stacks**,  
