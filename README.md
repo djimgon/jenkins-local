@@ -19,8 +19,8 @@ It is designed for developers who prefer running Jenkins locally, without relyin
 
 Start Jenkins locally:
 ```bash
-docker compose up -d
-
+docker compose up -d 
+```
 ## 🌐 Access Jenkins in your browser:
 
 👉 [http://localhost:8089](http://localhost:8089)
