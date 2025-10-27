@@ -21,6 +21,21 @@ Start Jenkins locally:
 ```bash
 docker compose up -d
 
-## 💻 Access Jenkins in your browser:
----
-👉 http://localhost:8089
+## 🌐 Access Jenkins in your browser:
+
+👉 [http://localhost:8089](http://localhost:8089)
+
+## 🛑 Stop Jenkins:
+```bash
+docker compose down
+
+## 📂 Purpose
+
+This project keeps Jenkins **independent from main development stacks**,  
+allowing you to safely test and manage **CI/CD pipelines for local environments**  
+without affecting your main applications or Docker networks.
+
+## 👤 Author
+
+**Dmitry Goncharov**  
+Full-stack Developer & DevOps Engineer
