@@ -13,8 +13,10 @@ RUN apk add --no-cache \
       tzdata \
       make
 
-# (опционально) задаём часовой пояс, если хочешь свой
-ENV TZ=America/Los_Angeles
+RUN apk add --no-cache shadow && \
+    addgroup -g 82 -S www-data || true; \
+    adduser jenkins www-data   || true; \
+    echo 'umask 0002' >> /etc/profile
 
 # возвращаемся под пользователя jenkins
 USER jenkins
