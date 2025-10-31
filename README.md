@@ -8,7 +8,7 @@ It is designed for developers who prefer running Jenkins locally, without relyin
 ---
 
 ## 🛠 Features
-- Simple Docker Compose setup (`jenkins/jenkins:lts`)
+- Simple Docker Compose setup (`jenkins/jenkins:alpine`)
 - Persistent data storage via bind-mount (`/srv/jenkins`)
 - Direct Docker integration using `/var/run/docker.sock`
 - Optimized for local CI/CD pipelines and Laravel / PHP projects
