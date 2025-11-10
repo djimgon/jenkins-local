@@ -31,6 +31,7 @@ services:
       - jenkins-data:/var/jenkins_home
       - docker-certs:/certs/client
       - docker-data:/var/lib/docker
+      - ./docker/common/docker/daemon.json:/etc/docker/daemon.json:ro
 
 volumes:
   jenkins-data:
