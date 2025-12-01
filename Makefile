@@ -1,4 +1,4 @@
-init: docker-down docker-pull docker-build docker-up jenkins-permissions
+init: docker-down docker-pull docker-build docker-up
 up: docker-up
 down: docker-down
 

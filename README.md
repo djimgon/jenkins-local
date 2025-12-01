@@ -20,6 +20,7 @@ It is designed for developers who prefer running Jenkins locally, without relyin
 Start Jenkins locally:
 ```bash
 docker compose up -d 
+make jenkins-permissions
 ```
 ## 🌐 Access Jenkins in your browser:
 
