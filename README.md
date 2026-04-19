@@ -40,3 +40,9 @@ without affecting your main applications or Docker networks.
 
 **Dmitry Goncharov**  
 Full-stack Developer & DevOps Engineer
+
+**Clean Docker Data Jenkins on Local**  
+
+docker volume ls | grep jenkins-local
+docker volume rm jenkins-local_docker-data
+df -h
